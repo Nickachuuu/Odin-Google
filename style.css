@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.75em;
+}
+
+.conttop {
+    display:flex;
+}
+.conttop div {
+    justify-content: space-between;
+}
+
+.topl {
+    flex:1;
+    
+}
+.topr {
+    flex:1;
+    text-align: end;
+    
+}
+.contmid {
+    display:center;
+    
+}
+.contbot {
+    display:flex;
+}
+.contbot div {
+    border:1px #ccc solid;
+    padding: 10px; 
+}
+.botl {
+    flex:1;
+    background-color: #ccc;
+}
+.botr {
+    flex:1;
+    text-align: end;
+    background-color: #ccc;
+}
