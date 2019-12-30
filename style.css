@@ -3,14 +3,20 @@ a {
     color: black;
     font-size: 0.75em;
 }
-
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.site-content {
+    flex: 1 0 auto;
+    padding: 20px;
+}
 .conttop {
     display:flex;
 }
-.conttop div {
-    justify-content: space-between;
-}
-
 .topl {
     flex:1;
     
@@ -24,12 +30,9 @@ a {
     display:center;
     
 }
-.contbot {
-    display:flex;
-}
-.contbot div {
-    border:1px #ccc solid;
-    padding: 10px; 
+.site-footer {
+    display: flex;
+    flex-shrink: 0;
 }
 .botl {
     flex:1;
